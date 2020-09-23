@@ -1,0 +1,146 @@
+/*  
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Global CSS */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+/* Header Section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+header .container-fluid {
+  padding: 3% 15% 6%;
+}
+
+img.sm-resp {
+  max-width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features section */
+#features {
+  padding: 8% 0;
+  position: relative;
+  background-color: #fff;
+}
+
+#features i {
+  padding-bottom: 10px;
+  color: #ff4c68;
+}
+
+#features i:hover {
+  color: #ad182f;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 6% 10%;
+}
+
+#testimonials img {
+  max-width: 20%;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+/* Press section */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 6%;
+}
+
+#press img {
+  padding-right: 1rem;
+  max-width: 15%;
+}
+
+/* Pricing section */
+#pricing {
+  text-align: center;
+  margin: 6% 0;
+}
+
+#pricing .card-header {
+  background-color: #ff4c68;
+}
+
+#pricing .card-footer {
+  background-color: #f1f1f1;
+}
+
+#pricing .card-footer {
+  background-color: #ff4c68;
+}
+
+/* Call to Action section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 10% 0;
+}
+
+/* Footer section */
+#footer {
+  padding: 6% 0;
+}
+#footer i {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 1028px) {
+  header .container-fluid {
+    text-align: center;
+  }
+
+  img.sm-resp {
+    max-width: 50%;
+    transform: rotate(0deg);
+    position: static;
+    padding-top: 1rem;
+  }
+}
